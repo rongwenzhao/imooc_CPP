@@ -7,7 +7,7 @@ Array::Array(int count){
 	m_iCount = count;
 	m_pArr = new int[m_iCount];
 	if (m_pArr == NULL) {
-		//内存分配失败时
+		//fail
 		//do something
 	}
 }
@@ -33,5 +33,5 @@ int Array::getCount() {
 }
 
 void Array::printAddr() {
-	cout << "m_pArr的值是: " << m_pArr << endl;
+	cout << "m_pArr : " << m_pArr << endl;
 }
