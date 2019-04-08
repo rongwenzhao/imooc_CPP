@@ -41,6 +41,18 @@ int main() {
 	//此时需要改造类的结构。
 
 	//已改造
+	/*
+		运行结果：
+
+		Coordinate_02() 1,2
+		Coordinate_02() 3,4
+		Line()
+		(1,2)
+		(3,4)
+		~Line()
+		~Coordinate_02() 3,4
+		~Coordinate_02() 1,2
+	*/
 
 
 	system("pause");
