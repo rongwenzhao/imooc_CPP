@@ -17,7 +17,7 @@ using namespace std;
 
 */
 
-int main() {
+int main_ddd() {
 
 /*	操作堆中的对象
 	Coordinate* p1 = NULL;

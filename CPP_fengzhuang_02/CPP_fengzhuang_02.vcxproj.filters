@@ -39,6 +39,12 @@
     <ClCompile Include="_04_duixiang_zhizhen.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_05_duixiang_chengyuanzhizhen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Line2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Coordinate.h">
@@ -51,6 +57,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Line2.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

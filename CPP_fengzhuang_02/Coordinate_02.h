@@ -1,7 +1,10 @@
-#pragma once
-class Coordinate_02{
+//#pragma once
+//#pragma once 的作用跟下面实现的宏编译效果一样。
+#ifndef COORDINATE_02_H
+#define COORDINATE_02_H
+class Coordinate_02 {
 public:
-	Coordinate_02(int x,int y);
+	Coordinate_02(int x, int y);
 	~Coordinate_02();
 	void setX(int x);
 	int getX();
@@ -13,3 +16,4 @@ private:
 	int m_iY;
 };
 
+#endif //COORDINATE_02_H
