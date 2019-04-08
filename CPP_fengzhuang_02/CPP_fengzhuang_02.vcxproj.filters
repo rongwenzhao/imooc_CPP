@@ -21,9 +21,24 @@
     <ClCompile Include="_01_duixiang_shuzu.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_02_duixiang_chengyuan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Coordinate_02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Coordinate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinate_02.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

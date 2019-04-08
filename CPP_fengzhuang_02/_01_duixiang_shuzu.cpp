@@ -14,7 +14,7 @@ using namespace std;
 */
 
 
-int main() {
+int main_aaa() {
 	Coordinate coor[3];
 	coor[0].m_iX = 3;
 	coor[0].m_iY = 5;
