@@ -18,7 +18,7 @@ using namespace std;
 		拷贝构造函数和析构函数，体会深拷贝的原理和必要性。
 */
 
-int main() {
+int main_ccc() {
 
 	/*示例1的demo
 	Array arr1;

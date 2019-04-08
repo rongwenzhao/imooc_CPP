@@ -36,6 +36,9 @@
     <ClCompile Include="Array.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_04_duixiang_zhizhen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Coordinate.h">

@@ -130,6 +130,7 @@
     <ClCompile Include="_01_duixiang_shuzu.cpp" />
     <ClCompile Include="_02_duixiang_chengyuan.cpp" />
     <ClCompile Include="_03_qiankaobei_shenkaobei.cpp" />
+    <ClCompile Include="_04_duixiang_zhizhen.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
