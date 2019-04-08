@@ -20,12 +20,14 @@ using namespace std;
 
 int main() {
 
+	/*示例1的demo
 	Array arr1;
 	arr1.setCount(5);
 
 	Array arr2(arr1);
 
 	cout << "arr2.m_iCount" << arr2.getCount() << endl;
+	*/
 	/*
 	示例安排1中的运行效果:
 			Array()  //调用arr1的构造函数
@@ -35,6 +37,14 @@ int main() {
 			~Array()  //arr2的析构函数
 			~Array()  //arr1的析构函数
 	*/
+
+
+	//示例2
+	Array arr1(5);
+	Array arr2(arr1);
+
+	arr1.printAddr();
+	arr2.printAddr();
 
 	system("pause");
 	return 0;
