@@ -10,16 +10,23 @@ Array::Array(int count){
 		//fail
 		//do something
 	}
+	//init array's item
+	for (int i = 0; i < m_iCount; i++){
+		m_pArr[i] = i;
+	}
 }
 
 Array::Array(const Array& arr) {
 	cout << "Array(const Array& arr)" << endl;
 	m_iCount = arr.m_iCount;
-	m_pArr = arr.m_pArr;
+	m_pArr = new int[m_iCount];
+	for (int i = 0; i < m_iCount; i++){
+		m_pArr[i] = arr.m_pArr[i];
+	}
 }
 
 Array::~Array(){
-	cout << "~Array()" << endl;
+	cout << "~Array() and m_pArr = " << m_pArr << endl;
 	delete m_pArr;
 	m_pArr = NULL;
 }
@@ -34,4 +41,11 @@ int Array::getCount() {
 
 void Array::printAddr() {
 	cout << "m_pArr : " << m_pArr << endl;
+}
+
+void Array::printArr() {
+	cout << "array item info " << endl;
+	for ( int i = 0; i < m_iCount; i++) {
+		cout << m_pArr[i] << endl;
+	}
 }

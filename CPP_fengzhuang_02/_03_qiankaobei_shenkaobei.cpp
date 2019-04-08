@@ -46,6 +46,32 @@ int main() {
 	arr1.printAddr();
 	arr2.printAddr();
 
+	arr1.printArr();
+	arr2.printArr();
+
+	//上面代码运行结果：
+						/*
+									Array()
+									Array(const Array& arr)
+									m_pArr : 009EE550
+									m_pArr : 009F0368
+									array item info
+									0
+									1
+									2
+									3
+									4
+									array item info
+									0
+									1
+									2
+									3
+									4
+									请按任意键继续. . .
+									~Array() and m_pArr = 009F0368
+									~Array() and m_pArr = 009EE550	
+						*/
+
 	system("pause");
 	return 0;
 }
