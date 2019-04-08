@@ -16,7 +16,7 @@ using namespace std;
 */
 
 
-int main() {
+int main_bbb() {
 
 	//สตั้าป
 	Line* p = new Line(1, 2, 3, 4);

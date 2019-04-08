@@ -123,13 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Array.cpp" />
     <ClCompile Include="Coordinate.cpp" />
     <ClCompile Include="Coordinate_02.cpp" />
     <ClCompile Include="Line.cpp" />
     <ClCompile Include="_01_duixiang_shuzu.cpp" />
     <ClCompile Include="_02_duixiang_chengyuan.cpp" />
+    <ClCompile Include="_03_qiankaobei_shenkaobei.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Array.h" />
     <ClInclude Include="Coordinate.h" />
     <ClInclude Include="Coordinate_02.h" />
     <ClInclude Include="Line.h" />

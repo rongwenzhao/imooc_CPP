@@ -30,6 +30,12 @@
     <ClCompile Include="Line.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_03_qiankaobei_shenkaobei.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Array.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Coordinate.h">
@@ -39,6 +45,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Line.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
