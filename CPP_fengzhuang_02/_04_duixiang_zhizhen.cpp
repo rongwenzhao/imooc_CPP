@@ -19,6 +19,7 @@ using namespace std;
 
 int main() {
 
+/*	操作堆中的对象
 	Coordinate* p1 = NULL;
 	p1 = new Coordinate();
 	p1->m_iX = 20;
@@ -36,6 +37,15 @@ int main() {
 
 	delete p2;
 	p2 = NULL;
+	*/
+
+	//操作栈中的对象
+	Coordinate p1;
+	Coordinate* p2 = &p1;//p2指向栈中的对象p1
+	p2->m_iX = 40;
+	p2->m_iY = 50;
+
+	cout << p1.m_iX << p1.m_iY << endl;//打印正常，证明对象指针p2操作的即为p1对象的数据成员。
 
 
 	system("pause");
