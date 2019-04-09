@@ -127,22 +127,27 @@
     <ClCompile Include="Array_02.cpp" />
     <ClCompile Include="Coordinate.cpp" />
     <ClCompile Include="Coordinate_02.cpp" />
+    <ClCompile Include="Coordinate_03.cpp" />
     <ClCompile Include="Line.cpp" />
     <ClCompile Include="Line2.cpp" />
+    <ClCompile Include="Line_03.cpp" />
     <ClCompile Include="_01_duixiang_shuzu.cpp" />
     <ClCompile Include="_02_duixiang_chengyuan.cpp" />
     <ClCompile Include="_03_qiankaobei_shenkaobei.cpp" />
     <ClCompile Include="_04_duixiang_zhizhen.cpp" />
     <ClCompile Include="_05_duixiang_chengyuanzhizhen.cpp" />
     <ClCompile Include="_06_this_pointer.cpp" />
+    <ClCompile Include="_07_const_duixiang_hanshu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
     <ClInclude Include="Array_02.h" />
     <ClInclude Include="Coordinate.h" />
     <ClInclude Include="Coordinate_02.h" />
+    <ClInclude Include="Coordinate_03.h" />
     <ClInclude Include="Line.h" />
     <ClInclude Include="Line2.h" />
+    <ClInclude Include="Line_03.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

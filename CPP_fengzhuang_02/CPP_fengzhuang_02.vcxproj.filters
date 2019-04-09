@@ -51,6 +51,15 @@
     <ClCompile Include="Array_02.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_07_const_duixiang_hanshu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Coordinate_03.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Line_03.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Coordinate.h">
@@ -69,6 +78,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Array_02.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinate_03.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Line_03.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
