@@ -45,6 +45,12 @@
     <ClCompile Include="Line2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_06_this_pointer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Array_02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Coordinate.h">
@@ -60,6 +66,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Line2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_02.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

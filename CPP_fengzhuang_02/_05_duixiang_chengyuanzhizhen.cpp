@@ -23,7 +23,7 @@ using namespace std;
 		成员函数：构造函数、析构函数、信息打印函数
 */
 
-int main() {
+int main_eee() {
 
 	Line line(1,2,3,4);
 	cout << "sizeof(line)"<<sizeof(line)<<endl; //16

@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Array.cpp" />
+    <ClCompile Include="Array_02.cpp" />
     <ClCompile Include="Coordinate.cpp" />
     <ClCompile Include="Coordinate_02.cpp" />
     <ClCompile Include="Line.cpp" />
@@ -133,9 +134,11 @@
     <ClCompile Include="_03_qiankaobei_shenkaobei.cpp" />
     <ClCompile Include="_04_duixiang_zhizhen.cpp" />
     <ClCompile Include="_05_duixiang_chengyuanzhizhen.cpp" />
+    <ClCompile Include="_06_this_pointer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
+    <ClInclude Include="Array_02.h" />
     <ClInclude Include="Coordinate.h" />
     <ClInclude Include="Coordinate_02.h" />
     <ClInclude Include="Line.h" />
