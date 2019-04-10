@@ -7,6 +7,7 @@ public:
 	~Person();
 	void eat();
 	int m_iAge;
+private:
 	string m_strName;
 };
 

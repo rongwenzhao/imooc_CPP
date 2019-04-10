@@ -1,6 +1,6 @@
 #pragma once
 #include "Person.h"
-class Worker : public Person{
+class Worker : private Person{
 public:
 	Worker();
 	~Worker();

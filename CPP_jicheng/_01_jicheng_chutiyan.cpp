@@ -11,15 +11,26 @@ using namespace std;
 
 */
 
+
+/*
+	注意：B类从A类继承，B类有A类的所有数据成员，只是有些有访问权限，有些无访问权限。
+*/
+
 int main() {
 
 	Worker* worker = new Worker();
-	worker->m_iAge = 10;
+	//worker->m_iAge = 10;
 	worker->m_iSalary = 1000;
-	worker->eat();
+	//worker->eat();
 	worker->work();
-	cout<<worker->m_iAge<<" "<<worker->m_iSalary<<endl;
+	//cout<<worker->m_iAge<<" "<<worker->m_iSalary<<endl;
 
+
+	int a = 10;
+	string abc = "abcedgdsdhsfjgshs";
+	cout<<"sizeof(int)"<<sizeof(a)<<" "<<"sizeof(string) "<<sizeof(abc)<<endl;
+
+	cout << "sizeof(*worker)" << sizeof(*worker) << endl;
 	delete worker;
 	worker = NULL;
 	
