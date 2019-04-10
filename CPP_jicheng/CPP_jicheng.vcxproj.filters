@@ -24,12 +24,27 @@
     <ClCompile Include="Worker.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_02_jicheng_hide_.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Person_02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solider.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Worker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Person_02.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solider.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -16,7 +16,7 @@ using namespace std;
 	注意：B类从A类继承，B类有A类的所有数据成员，只是有些有访问权限，有些无访问权限。
 */
 
-int main() {
+int main_aaa() {
 
 	Worker* worker = new Worker();
 	//worker->m_iAge = 10;

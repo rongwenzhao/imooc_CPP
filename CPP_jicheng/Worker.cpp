@@ -12,4 +12,5 @@ Worker::~Worker(){
 
 void Worker::work() {
 	cout<<"work()"<<endl;
+	eat();
 }
