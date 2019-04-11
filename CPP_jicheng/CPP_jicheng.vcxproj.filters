@@ -42,6 +42,12 @@
     <ClCompile Include="Solider_03.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_04_jicheng_duojicheng_duochongjicheng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Infantry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
@@ -60,6 +66,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Solider_03.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Infantry.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

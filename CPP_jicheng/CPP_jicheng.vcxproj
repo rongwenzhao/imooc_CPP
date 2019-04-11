@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Infantry.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Person_02.cpp" />
     <ClCompile Include="Person_03.cpp" />
@@ -132,8 +133,10 @@
     <ClCompile Include="_01_jicheng_chutiyan.cpp" />
     <ClCompile Include="_02_jicheng_hide_.cpp" />
     <ClCompile Include="_03_jicheng_is_a.cpp" />
+    <ClCompile Include="_04_jicheng_duojicheng_duochongjicheng.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Infantry.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Person_02.h" />
     <ClInclude Include="Person_03.h" />

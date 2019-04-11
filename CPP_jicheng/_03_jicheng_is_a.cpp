@@ -27,7 +27,7 @@ void test3(Person_03* p) {
 	p->paly();
 }
 
-int main() {
+int main_ccc() {
 
 	/*
 	//สตั้าป
