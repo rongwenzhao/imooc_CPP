@@ -2,7 +2,7 @@
 #include "Person_01.h"
 #include<string>
 using namespace std;
-class Farmer_01 :  public Person_01{
+class Farmer_01 : virtual public Person_01{
 public:
 	Farmer_01(string name = "Jack",string color = "blue");
 	virtual ~Farmer_01();

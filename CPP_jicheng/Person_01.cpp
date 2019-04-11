@@ -12,5 +12,5 @@ Person_01::~Person_01(){
 
 void Person_01::printColor() {
 	cout << " m_strColor: " << m_strColor << endl;
-	cout << "~Person_01 printColor()" << endl;
+	cout << "Person_01 printColor()" << endl;
 }
