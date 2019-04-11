@@ -3,7 +3,7 @@
 #include"Worker_01.h"
 class MigrantWorker_01 : public Farmer_01,public Worker_01{
 public:
-	MigrantWorker_01(string name,string code);
+	MigrantWorker_01(string name,string code,string color);
 	~MigrantWorker_01();
 };
 

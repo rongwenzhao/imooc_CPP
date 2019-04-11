@@ -1,7 +1,7 @@
 #include "Farmer_01.h"
 #include<iostream>
 
-Farmer_01::Farmer_01(string name){
+Farmer_01::Farmer_01(string name,string color):Person_01("Farmer " + color){
 	m_strName = name;
 	cout<<"Farmer_01() "<<endl;
 }

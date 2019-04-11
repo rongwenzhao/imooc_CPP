@@ -127,6 +127,7 @@
     <ClCompile Include="Infantry.cpp" />
     <ClCompile Include="MigrantWorker_01.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Person_01.cpp" />
     <ClCompile Include="Person_02.cpp" />
     <ClCompile Include="Person_03.cpp" />
     <ClCompile Include="Solider.cpp" />
@@ -138,12 +139,14 @@
     <ClCompile Include="_03_jicheng_is_a.cpp" />
     <ClCompile Include="_04_jicheng_duochongjicheng.cpp" />
     <ClCompile Include="_05_jicheng_duojicheng.cpp" />
+    <ClCompile Include="_06_jicheng_xujicheng.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Farmer_01.h" />
     <ClInclude Include="Infantry.h" />
     <ClInclude Include="MigrantWorker_01.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Person_01.h" />
     <ClInclude Include="Person_02.h" />
     <ClInclude Include="Person_03.h" />
     <ClInclude Include="Solider.h" />

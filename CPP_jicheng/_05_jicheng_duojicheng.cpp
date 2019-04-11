@@ -12,9 +12,9 @@ using namespace std;
 		3、MigrantWorker_01，农民工类，数据，无，函数，构造，析构
 */
 
-int main() {
+int main_eee() {
 
-	MigrantWorker_01 mw("hello","003");
+	MigrantWorker_01 mw("hello","003","black");
 	mw.sow();
 	mw.carry();
 

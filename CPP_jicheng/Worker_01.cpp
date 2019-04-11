@@ -1,7 +1,7 @@
 #include "Worker_01.h"
 #include<iostream>
 
-Worker_01::Worker_01(string code){
+Worker_01::Worker_01(string code,string color):Person_01("Worker " + color){
 	m_strCode = code;
 	cout<<"Worker_01()"<<endl;
 }
