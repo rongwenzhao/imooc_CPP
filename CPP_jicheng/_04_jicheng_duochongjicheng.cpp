@@ -1,7 +1,6 @@
 #include<iostream>
 #include<stdlib.h>
-#include"Solider_03.h"
-#include"Person_03.h"
+
 #include"Infantry.h"
 
 using namespace std;
@@ -27,7 +26,7 @@ void test_3(Person_03* p) {
 	p->paly();
 }
 
-int main() {
+int main_ddd() {
 	
 	Infantry i;
 	test_1(i);

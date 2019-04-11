@@ -123,26 +123,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Farmer_01.cpp" />
     <ClCompile Include="Infantry.cpp" />
+    <ClCompile Include="MigrantWorker_01.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Person_02.cpp" />
     <ClCompile Include="Person_03.cpp" />
     <ClCompile Include="Solider.cpp" />
     <ClCompile Include="Solider_03.cpp" />
     <ClCompile Include="Worker.cpp" />
+    <ClCompile Include="Worker_01.cpp" />
     <ClCompile Include="_01_jicheng_chutiyan.cpp" />
     <ClCompile Include="_02_jicheng_hide_.cpp" />
     <ClCompile Include="_03_jicheng_is_a.cpp" />
-    <ClCompile Include="_04_jicheng_duojicheng_duochongjicheng.cpp" />
+    <ClCompile Include="_04_jicheng_duochongjicheng.cpp" />
+    <ClCompile Include="_05_jicheng_duojicheng.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Farmer_01.h" />
     <ClInclude Include="Infantry.h" />
+    <ClInclude Include="MigrantWorker_01.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Person_02.h" />
     <ClInclude Include="Person_03.h" />
     <ClInclude Include="Solider.h" />
     <ClInclude Include="Solider_03.h" />
     <ClInclude Include="Worker.h" />
+    <ClInclude Include="Worker_01.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
