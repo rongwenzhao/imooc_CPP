@@ -16,7 +16,7 @@ using namespace std;
 		ÀàSolider
 */
 
-int main() {
+int main_bbb() {
 
 	Solider solider;
 	solider.Person_02::eat();

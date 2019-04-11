@@ -125,15 +125,20 @@
   <ItemGroup>
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Person_02.cpp" />
+    <ClCompile Include="Person_03.cpp" />
     <ClCompile Include="Solider.cpp" />
+    <ClCompile Include="Solider_03.cpp" />
     <ClCompile Include="Worker.cpp" />
     <ClCompile Include="_01_jicheng_chutiyan.cpp" />
     <ClCompile Include="_02_jicheng_hide_.cpp" />
+    <ClCompile Include="_03_jicheng_is_a.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h" />
     <ClInclude Include="Person_02.h" />
+    <ClInclude Include="Person_03.h" />
     <ClInclude Include="Solider.h" />
+    <ClInclude Include="Solider_03.h" />
     <ClInclude Include="Worker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
