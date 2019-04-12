@@ -2,7 +2,7 @@
 class Shape{
 public:
 	Shape();
-	~Shape();
+	virtual ~Shape();
 	virtual double calcArea();
 };
 
