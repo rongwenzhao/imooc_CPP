@@ -48,6 +48,9 @@
     <ClCompile Include="Dustman.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_05_duotai_interface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shape.h">

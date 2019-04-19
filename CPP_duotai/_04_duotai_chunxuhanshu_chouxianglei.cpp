@@ -28,7 +28,7 @@ using namespace std;
 */
 
 
-int main() {
+int main_ddd() {
 
 	//Person p;
 	//Worker w("ll",23);
