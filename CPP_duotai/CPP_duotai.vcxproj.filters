@@ -30,6 +30,12 @@
     <ClCompile Include="Coordinate.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_02_duotai_virtual_hanshu_yuanli.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_03_duotai_virtual_hanshu_daima.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shape.h">

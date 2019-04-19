@@ -128,6 +128,8 @@
     <ClCompile Include="Rect.cpp" />
     <ClCompile Include="Shape.cpp" />
     <ClCompile Include="_01_duotai_virtual_hanshu.cpp" />
+    <ClCompile Include="_02_duotai_virtual_hanshu_yuanli.cpp" />
+    <ClCompile Include="_03_duotai_virtual_hanshu_daima.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h" />

@@ -49,7 +49,7 @@ virtual在函数中的使用限制：
 
 */
 
-int main() {
+int main_aaa() {
 
 	Shape* shape1 = new Rect(4, 6);
 	Shape* shape2 = new Circle(5);
