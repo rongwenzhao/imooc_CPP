@@ -36,6 +36,9 @@
     <ClCompile Include="_03_duotai_virtual_hanshu_daima.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_04_duotai_chunxuhanshu_chouxianglei.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shape.h">

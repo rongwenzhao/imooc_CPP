@@ -35,7 +35,7 @@ using namespace std;
 */
 
 
-int main() {
+int main_ccc() {
 
 	/*
 		有虚函数的类的对象第一个元素即为虚函数表指针。
